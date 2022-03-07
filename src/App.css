@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins:ital,wght@1,300&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,99 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  background-color: rgba(165, 42, 42, 0.014);
+  font-family: 'Poppins', sans-serif;
+}
+
+.cardContainer{
+  height: 80vh;
+  /* border: 2px solid red; */
+  display: flex;
+}
+
+.left {
+  /* border: 2px solid red; */
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mid {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 33.3%;
+}
+
+.right {
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 33.3%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.allCards{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 9px 7px 10px rgba(0, 0, 0, 0.226);
+  height: 40%;
+  /* text-align: center; */
+  width: 70%;
+}
+
+.card1{ /* Supervisor */
+  border-top: 3px solid hsl(180, 62%, 55%);
+  border: 2px solid inherit;
+}
+
+.card2{/* Team Builder */
+  border-top: 3px solid hsl(0, 78%, 62%);
+  /* height: 33%; */
+}
+
+.card3{/* Karma */
+  border-top: 3px solid hsl(34, 97%, 64%);
+  /* height: 33%; */
+}
+
+.card4{/* Calculator */
+  border-top: 3px solid hsl(212, 86%, 64%);
+  /* height: 50%; */
+}
+
+.cardTitle{
+  padding-left: 30px;
+  padding-top:15px
+}
+
+.cardText{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+img{
+  width: 100%;
+}
+
+.image{
+  /* justify-self: flex-start;
+  align-self: flex-end;
+  height: 50px;
+  margin-top: 40px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
 }

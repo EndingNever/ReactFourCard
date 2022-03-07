@@ -1,23 +1,28 @@
 import logo from './logo.svg';
+import Tb from './components/teambuilder/Tb';
+import Calculator from './components/calculator/calculator';
+import Karma from './components/karma/karma';
+import Supervisor from './components/supervisorCard/Supervisor';
 import './App.css';
+import Body from './components/body/Body';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Body />
+      <div className='cardContainer'>
+        <div className='left'>
+          <Supervisor />
+        </div>
+        <div className='mid'>
+          <Tb />
+          <Karma />
+        </div>
+        <div className='right'>
+          <Calculator />
+        </div>
+      </div>
+
     </div>
   );
 }

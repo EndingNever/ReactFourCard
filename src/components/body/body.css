@@ -1,0 +1,17 @@
+
+ h2{
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+}
+
+.body .headerText {
+    font-size: 39px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.body .cardText{
+    font-weight: 200;
+}
