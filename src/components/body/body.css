@@ -1,17 +1,27 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
  h2{
+    color: hsl(234, 12%, 34%);
     margin-top: 0px;
     font-size: 40px;
     font-weight: 600;
     /* margin-bottom: 5px; */
 }
 
-.body .headerText {
-    font-size: 39px;
+.body > .headerText {
+    color: hsl(229, 6%, 66%);
+    font-size: 1.9em;
     font-weight: 400;
     margin-bottom: 5px;
 }
 
 .body .cardText{
+    color: rgb(180, 180, 180);
     font-weight: 200;
+    /* width: 30%; */
 }
